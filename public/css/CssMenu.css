@@ -1,0 +1,126 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+header
+{
+    top:40px;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color:  #024959;
+    height: 57px;
+}
+#divMenu
+{
+    display: none;
+}
+#navMenu
+{
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #024959;
+}
+#navMenu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#navMenu ul li{
+    display: inline-table;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.7s;
+}
+
+#navMenu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    vertical-align: middle;
+    display: block;
+    padding: 10px;
+    
+}
+span
+{
+    padding-right: 5px;
+}
+#navMenu ul li:hover{
+    background-color: #037E8C;
+}
+#navMenu ul li:hover > ul   {
+    display: inline-block;
+    background-color:#024959;
+}
+#navMenu ul li ul > li:hover >a  {
+    background-color:#EA4335;
+}
+#navMenu ul li ul   {
+    display: none;
+    left: 0;
+    position: absolute;
+    top:100%;
+    color: #000;
+}
+@media (max-width:700px)
+{
+    #navMenu 
+    {
+        width: 50%;
+        height: 100%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+    }
+    #divMenu
+    {
+        display: block;
+        background-color: #ccc;
+        width: 100%;
+    }
+    #navMenu ul li{
+        display: block;
+        text-align: left;
+        border-bottom: 2px solid rgba(255,255,255,0.3);
+    }
+    #navMenu ul li >ul{
+        display: none;
+    }
+    #navMenu ul li:hover >ul{
+        display: inline-block;
+    }
+    #divMenu a
+    {
+        display: block;
+        padding: 4%;
+        background-color: #024959;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    #divMenu a span
+    {
+        float: right;
+        font-size: 40px;
+    }
+}
+
+section
+{
+    padding-top:95px;
+    padding-bottom: 35px
+}
+
+footer
+{
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #024959;
+    text-align: center;
+}

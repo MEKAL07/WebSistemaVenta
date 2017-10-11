@@ -1,0 +1,58 @@
+section
+{
+	text-align: center;
+	right: 0;
+	left: 0;
+}
+form
+{
+	width: 50%;
+	display: inline-block;
+	border-radius: 10px 10px 10px 10px;
+	border: solid 1px  rgba(2,73,89,0.9);
+	padding: 1%;
+}
+#divLogin
+{
+	display: inline-block;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+	width: 35%;
+}
+.table
+{
+	width: 100%;
+}
+.td
+{
+	width: 100%;
+}
+.laveltext
+{
+	float: left;	
+}
+.inputtext
+{
+	width: 100%;
+	/*box-shadow:5px rgba(1,2,3,0.9);*/
+	border-radius: 5px;
+	height: 25px;
+	color: #000;
+}
+.inputarea
+{
+	width: 100%;
+	border-radius: 5px 5px 5px 5px;
+	height: 60px;
+}
+.inputbutton
+{
+	width: 20%;
+	height: 35px;
+	color: #ffffff;
+	background-color: #428bca;
+	border-color: #357ebd;
+	border-radius: 5px;
+	cursor: pointer;
+	float: right;
+}
